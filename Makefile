@@ -11,7 +11,6 @@ install:
 test:
 	venv/bin/pytest --maxfail=1 --disable-warnings -q
 
-
 # Tear it all down
 clean:
 	rm -rf venv merged.txt merged_all.txt
