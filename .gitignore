@@ -1,0 +1,35 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Test cache
+.pytest_cache/
+*.cover
+.coverage
+
+# Output files
+merged.txt
+merged_all.txt
+output_all.txt
+all.txt
+all2.txt
+
+# VSCode/IDE files
+.vscode/
+*.swp
+*.swo
+
+# MacOS/Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
