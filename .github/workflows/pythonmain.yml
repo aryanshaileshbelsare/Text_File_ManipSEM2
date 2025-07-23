@@ -22,10 +22,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run tests with pytest
-      run: |
-        pytest
-
-    - name: Upload test results
       run: pytest tests/
-
-      #Workflow test run
