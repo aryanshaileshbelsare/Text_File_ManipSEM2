@@ -11,9 +11,6 @@ install:
 test:
 	venv/bin/pytest --maxfail=1 --disable-warnings -q
 
-# (Optional) run linting/type‑checking
-lint:
-	venv/bin/flake8 src tests
 
 # Tear it all down
 clean:
